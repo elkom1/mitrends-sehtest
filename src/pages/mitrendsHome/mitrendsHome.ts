@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
+import { SehtestHomePage } from '../sehtestHome/sehtestHome';
 
 @Component({
   selector: 'page-mitrendsHome',
@@ -8,7 +9,8 @@ import { NavController } from 'ionic-angular';
 export class MitrendsHomePage {
 
   constructor(public navCtrl: NavController) {
-
   }
-
+  pushPage(){
+    this.navCtrl.push(SehtestHomePage);
+  }
 }

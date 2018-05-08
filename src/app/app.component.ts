@@ -25,8 +25,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
-      { title: 'MitrendS Home', component: MitrendsHomePage }, 
-      { title: 'Sehtest Home', component: SehtestHomePage }, 
+      { title: 'MitrendS Home', component: MitrendsHomePage } 
     ];
 
   }
