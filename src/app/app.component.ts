@@ -4,7 +4,8 @@ import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { HomePage } from '../pages/home/home';
-import { ExamplePage } from '../pages/example/example';
+import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
+import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { ListPage } from '../pages/list/list';
 
 @Component({
@@ -24,7 +25,8 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
-      { title: 'Example', component: ExamplePage }, 
+      { title: 'MitrendS Home', component: MitrendsHomePage }, 
+      { title: 'Sehtest Home', component: SehtestHomePage }, 
     ];
 
   }
