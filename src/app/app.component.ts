@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home';
 import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
 import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { ListPage } from '../pages/list/list';
+import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
 
 @Component({
   templateUrl: 'app.html'
@@ -25,7 +26,7 @@ export class MyApp {
     this.pages = [
       { title: 'Home', component: HomePage },
       { title: 'List', component: ListPage },
-      { title: 'MitrendS Home', component: MitrendsHomePage } 
+      { title: 'MitrendS Home', component: MitrendsHomePage }
     ];
 
   }

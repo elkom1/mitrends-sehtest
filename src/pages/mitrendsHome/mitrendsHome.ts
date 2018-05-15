@@ -10,7 +10,7 @@ export class MitrendsHomePage {
 
   constructor(public navCtrl: NavController) {
   }
-  pushPage(){
+  goSehtestHome(){
     this.navCtrl.push(SehtestHomePage);
   }
 }
