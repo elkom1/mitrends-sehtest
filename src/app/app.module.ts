@@ -8,6 +8,7 @@ import { ListPage } from '../pages/list/list';
 import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
 import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
+import { SehtestAnleitung2Page } from '../pages/sehtestAnleitung2/sehtestAnleitung2';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -19,7 +20,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     MitrendsHomePage, 
     SehtestHomePage, 
-    SehtestAnleitung1Page
+    SehtestAnleitung1Page,
+    SehtestAnleitung2Page
+
   ],
   imports: [
     BrowserModule,
@@ -32,7 +35,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     MitrendsHomePage, 
     SehtestHomePage,
-    SehtestAnleitung1Page
+    SehtestAnleitung1Page,
+    SehtestAnleitung2Page
   ],
   providers: [
     StatusBar,

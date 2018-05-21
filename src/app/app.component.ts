@@ -8,6 +8,7 @@ import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
 import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { ListPage } from '../pages/list/list';
 import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
+import { SehtestAnleitung2Page } from '../pages/sehtestAnleitung2/sehtestAnleitung2';
 
 @Component({
   templateUrl: 'app.html'
