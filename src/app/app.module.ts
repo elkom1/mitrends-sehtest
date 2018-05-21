@@ -9,6 +9,11 @@ import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
 import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
 import { SehtestAnleitung2Page } from '../pages/sehtestAnleitung2/sehtestAnleitung2';
+import { SehtestAnleitung3Page } from '../pages/sehtestAnleitung3/sehtestAnleitung3';
+import { SehtestAnleitung4Page } from '../pages/sehtestAnleitung4/sehtestAnleitung4';
+import { SehtestFarbtafelPage } from '../pages/sehtestFarbtafel/sehtestFarbtafel';
+import { SehtestSnellen1Page } from '../pages/sehtestSnellen1/sehtestSnellen1';
+
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,8 +26,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MitrendsHomePage, 
     SehtestHomePage, 
     SehtestAnleitung1Page,
-    SehtestAnleitung2Page
-
+    SehtestAnleitung2Page, 
+    SehtestAnleitung3Page, 
+    SehtestAnleitung4Page, 
+    SehtestFarbtafelPage, 
+    SehtestSnellen1Page
   ],
   imports: [
     BrowserModule,
@@ -36,7 +44,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MitrendsHomePage, 
     SehtestHomePage,
     SehtestAnleitung1Page,
-    SehtestAnleitung2Page
+    SehtestAnleitung2Page, 
+    SehtestAnleitung3Page, 
+    SehtestAnleitung4Page, 
+    SehtestFarbtafelPage, 
+    SehtestSnellen1Page
   ],
   providers: [
     StatusBar,

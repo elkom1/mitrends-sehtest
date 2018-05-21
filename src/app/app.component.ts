@@ -9,6 +9,11 @@ import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { ListPage } from '../pages/list/list';
 import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
 import { SehtestAnleitung2Page } from '../pages/sehtestAnleitung2/sehtestAnleitung2';
+import { SehtestAnleitung3Page } from '../pages/sehtestAnleitung3/sehtestAnleitung3';
+import { SehtestAnleitung4Page } from '../pages/sehtestAnleitung4/sehtestAnleitung4';
+import { SehtestFarbtafelPage } from '../pages/sehtestFarbtafel/sehtestFarbtafel';
+import { SehtestSnellen1Page } from '../pages/sehtestSnellen1/sehtestSnellen1';
+
 
 @Component({
   templateUrl: 'app.html'
@@ -46,4 +51,5 @@ export class MyApp {
     // we wouldn't want the back button to show in this scenario
     this.nav.setRoot(page.component);
   }
+
 }
