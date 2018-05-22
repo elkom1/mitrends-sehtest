@@ -14,6 +14,10 @@ import { SehtestAnleitung4Page } from '../pages/sehtestAnleitung4/sehtestAnleitu
 import { SehtestFarbtafelPage } from '../pages/sehtestFarbtafel/sehtestFarbtafel';
 import { SehtestSnellen1Page } from '../pages/sehtestSnellen1/sehtestSnellen1';
 
+// Additional Service for midata
+import { MidataService } from "../services/midataService";
+
+
 
 @Component({
   templateUrl: 'app.html'

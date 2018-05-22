@@ -15,6 +15,10 @@ import { SehtestFarbtafelPage } from '../pages/sehtestFarbtafel/sehtestFarbtafel
 import { SehtestSnellen1Page } from '../pages/sehtestSnellen1/sehtestSnellen1';
 
 
+// Additional service for midata
+import { MidataService} from "../services/midataService";
+
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -53,6 +57,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
+    MidataService,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
