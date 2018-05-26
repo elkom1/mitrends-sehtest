@@ -23,4 +23,14 @@ img.img-centered {
     width: 20% !important;
   }
   
-  
+  ion-content {
+    margin-top: 50px; 
+    margin-bottom: 30px;
+  }
+
+  img.img-test {
+    margin: auto; 
+    align-items: center;
+    display: block;
+    width: 40% !important;
+  }
