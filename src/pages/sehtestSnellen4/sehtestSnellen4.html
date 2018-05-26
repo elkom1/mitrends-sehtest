@@ -1,0 +1,19 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Sehtest - Snellen 4</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h1>Geben Sie die Richtung an</h1>
+  <img class="img-centered" src="assets/images/mitrends_home/Snellen4.PNG" alt="Snellen4">
+
+  <button ion-button float-right (click)="goSnellen5(true)">Oben</button> 
+  <button ion-button float-right (click)="goSnellen5(false)">Rechts</button>
+  <button ion-button float-left (click)="goSnellen5(false)">Unten</button>
+  <button ion-button float-left (click)="goSnellen5(false)">Links</button>
+
+</ion-content>

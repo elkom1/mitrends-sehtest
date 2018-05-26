@@ -3,19 +3,17 @@
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Sehtest Home</ion-title>
+    <ion-title>Sehtest - Snellen 1</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
     <h1>Geben Sie die Richtung an</h1>
-  <img class="img-centered" src="assets/images/mitrends_home/Snellen1.PNG" alt="farbtafel">
+  <img class="img-centered" src="assets/images/mitrends_home/Snellen1.PNG" alt="Snellen1">
 
-  <ion-icon ios="ios-arrow-back" md="md-arrow-back"></ion-icon>
-  <ion-icon ios="ios-arrow-back" md="md-arrow-down"></ion-icon>
-  <ion-icon ios="ios-arrow-back" md="md-arrow-forward"></ion-icon>
-  <ion-icon ios="ios-arrow-back" md="md-arrow-up"></ion-icon>
-  
-  <button ion-button float-right>Weiter</button>
-  
+  <button ion-button float-right (click)="goSnellen2(false)">Oben</button> 
+  <button ion-button float-right (click)="goSnellen2(false)">Rechts</button>
+  <button ion-button float-left (click)="goSnellen2(false)">Unten</button>
+  <button ion-button float-left (click)="goSnellen2(true)">Links</button>
+
 </ion-content>

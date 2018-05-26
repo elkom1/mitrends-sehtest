@@ -11,11 +11,12 @@ import { Midata } from 'Midata';
 export class SehtestAnleitung2Page {
 
   value:Boolean;
-  midataService: MidataService;
+  //midataService: MidataService;
   
-  constructor(public navCtrl: NavController, midataService: MidataService) {
-    
+  constructor(public navCtrl: NavController) {
+   //constructor(public navCtrl: NavController, public midataService: MidataService)
   }
+  
   goAnleitung3(value: Boolean){
 
     // let fhir = {
