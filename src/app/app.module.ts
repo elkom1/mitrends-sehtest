@@ -30,6 +30,13 @@ import { kontrasttest3_50_Page } from '../pages/kontrasttest3_50/kontrasttest3_5
 import { kontrasttest4_50_Page } from '../pages/kontrasttest4_50/kontrasttest4_50';
 import { kontrasttest5_50_Page } from '../pages/kontrasttest5_50/kontrasttest5_50';
 import { kontrasttest6_50_Page } from '../pages/kontrasttest6_50/kontrasttest6_50';
+import { kontrasttest1_25_Page } from '../pages/kontrasttest1_25/kontrasttest1_25';
+import { kontrasttest2_25_Page } from '../pages/kontrasttest2_25/kontrasttest2_25';
+import { kontrasttest3_25_Page } from '../pages/kontrasttest3_25/kontrasttest3_25';
+import { kontrasttest4_25_Page } from '../pages/kontrasttest4_25/kontrasttest4_25';
+import { kontrasttest5_25_Page } from '../pages/kontrasttest5_25/kontrasttest5_25';
+import { kontrasttest6_25_Page } from '../pages/kontrasttest6_25/kontrasttest6_25';
+import { SehtestSchlussViewPage } from '../pages/sehtestSchlussView/sehtestSchlussView';
 
 
 // Additional service for midata
@@ -68,7 +75,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     kontrasttest3_50_Page, 
     kontrasttest4_50_Page, 
     kontrasttest5_50_Page, 
-    kontrasttest6_50_Page
+    kontrasttest6_50_Page, 
+    kontrasttest1_25_Page, 
+    kontrasttest2_25_Page, 
+    kontrasttest3_25_Page, 
+    kontrasttest4_25_Page,
+    kontrasttest5_25_Page,
+    kontrasttest6_25_Page, 
+    SehtestSchlussViewPage
   ],
   imports: [
     BrowserModule,
@@ -103,7 +117,14 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     kontrasttest3_50_Page, 
     kontrasttest4_50_Page, 
     kontrasttest5_50_Page, 
-    kontrasttest6_50_Page
+    kontrasttest6_50_Page, 
+    kontrasttest1_25_Page, 
+    kontrasttest2_25_Page, 
+    kontrasttest3_25_Page, 
+    kontrasttest4_25_Page,
+    kontrasttest5_25_Page,
+    kontrasttest6_25_Page, 
+    SehtestSchlussViewPage
   ],
   providers: [
     StatusBar,
