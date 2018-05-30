@@ -1,0 +1,30 @@
+<ion-content>
+  <div id="midataLogoWrapper">
+      <span class="helper"></span>
+      <ion-img alt="MIDATA logo" src="assets/images/logo-midata-full.png" id="logoMidata" (click)="visitMidata()"></ion-img>
+  </div>
+  <div id="blockHeader">
+  </div>
+  <ion-slides pager>
+    <ion-slide>
+      <h2 class="slide-title">Welcome to Musab And Omar Fancy App</h2>
+    </ion-slide>
+
+    <ion-slide>
+      <h2 class="slide-title">What can I do for you?</h2>
+    </ion-slide>
+
+    <ion-slide>
+      <h2 class="slide-title">Tipps!</h2>
+    </ion-slide>
+</ion-slides>
+
+  <div id="btnZone">
+    <div class="wrapper default" id="btnLogin" (click)="login()">
+        login
+    </div>
+    <div class="wrapper" id="btnRegister" (click)="register()">
+        register
+    </div>
+  </div>
+</ion-content>

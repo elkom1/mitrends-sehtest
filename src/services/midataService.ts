@@ -3,7 +3,7 @@ import { Midata, Resource} from 'Midata';
 import { SecureStorage, SecureStorageObject } from "@ionic-native/secure-storage";
 import { Events, Platform } from "ionic-angular";
 import { Network } from "@ionic-native/network";
-import { Storage } from '@ionic/storage';
+import {NativeStorage} from '@ionic-native/native-storage';
 import { TokenRefreshResponse, TokenResponse} from "midata/dist/src/api";
 import {Promise} from 'es6-promise';
 
@@ -15,7 +15,7 @@ export class MidataService {
   private midata: Midata;
 
     constructor(
-    	protected storage: Storage,
+    	protected storage: NativeStorage,
     	protected secureStorage: SecureStorage,
     	protected platform: Platform,
     	protected events: Events,

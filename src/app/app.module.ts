@@ -1,8 +1,14 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
+import { InAppBrowser } from "@ionic-native/in-app-browser";
+import {NativeStorage} from '@ionic-native/native-storage';
+import { SecureStorage, SecureStorageObject } from '@ionic-native/secure-storage';
+import { Network } from '@ionic-native/network';
+
 
 import { MyApp } from './app.component';
+import { LoginPage } from "../pages/login/login";
 import { HomePage } from '../pages/home/home';
 import { ListPage } from '../pages/list/list';
 import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
@@ -49,6 +55,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 @NgModule({
   declarations: [
     MyApp,
+    LoginPage,
     HomePage,
     ListPage,
     MitrendsHomePage, 
@@ -92,6 +99,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
+    LoginPage,
     ListPage,
     MitrendsHomePage, 
     SehtestHomePage,
@@ -130,6 +138,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     StatusBar,
     SplashScreen,
     MidataService,
+    InAppBrowser,
+    NativeStorage,
+    SecureStorage,
+    Network,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
