@@ -10,8 +10,6 @@ import { Network } from '@ionic-native/network';
 import { MyApp } from './app.component';
 import { LoginPage } from "../pages/login/login";
 import { HomePage } from '../pages/home/home';
-import { ListPage } from '../pages/list/list';
-import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
 import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
 import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
 import { SehtestAnleitung2Page } from '../pages/sehtestAnleitung2/sehtestAnleitung2';
@@ -57,8 +55,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     LoginPage,
     HomePage,
-    ListPage,
-    MitrendsHomePage, 
     SehtestHomePage, 
     SehtestAnleitung1Page,
     SehtestAnleitung2Page, 
@@ -100,8 +96,6 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     LoginPage,
-    ListPage,
-    MitrendsHomePage, 
     SehtestHomePage,
     SehtestAnleitung1Page,
     SehtestAnleitung2Page, 

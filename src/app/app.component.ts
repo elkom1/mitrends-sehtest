@@ -5,9 +5,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 
 import { LoginPage } from '../pages/login/login';
 import { HomePage } from '../pages/home/home';
-import { MitrendsHomePage } from '../pages/mitrendsHome/mitrendsHome';
 import { SehtestHomePage } from '../pages/sehtestHome/sehtestHome';
-import { ListPage } from '../pages/list/list';
 import { SehtestAnleitung1Page } from '../pages/sehtestAnleitung1/sehtestAnleitung1';
 import { SehtestAnleitung2Page } from '../pages/sehtestAnleitung2/sehtestAnleitung2';
 import { SehtestAnleitung3Page } from '../pages/sehtestAnleitung3/sehtestAnleitung3';
@@ -51,7 +49,7 @@ import { MidataService } from "../services/midataService";
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = LoginPage;
 
   pages: Array<{title: string, component: any}>;
 
@@ -61,9 +59,6 @@ export class MyApp {
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Home', component: HomePage },
-      { title: 'List', component: ListPage },
-      { title: 'MitrendS Home', component: MitrendsHomePage }, 
-      { title: 'Login', component: LoginPage }
     ];
 
   }

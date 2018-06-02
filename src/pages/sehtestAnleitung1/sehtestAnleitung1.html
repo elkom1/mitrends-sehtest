@@ -8,9 +8,17 @@
 </ion-header>
 
 <ion-content padding>
- <h1>Bitte verwenden Sie die erhaltene Augenklappe</h1>
-  <img class="img-centered" src="assets/images/mitrends_home/stuetzvorrichtung.jpg" alt="stuetzvorrichtung">
-  <img class="img-centered" src="assets/images/mitrends_home/Augenklappe.jpg" alt="Augenklappe">
 
-  <button ion-button float-right (click)="goAnleitung2()">Weiter</button>
+  <div class="header">
+    <img src="assets/images/mitrends_home/stuetzvorrichtung.jpg" alt="stuetzvorrichtung">
+    <h1> <br/> <br/> Bitte verwenden Sie die <br/> Augenklappe <br/> <br/> und </h1> 
+    
+    <img src="assets/images/mitrends_home/Augenklappe.jpg" alt="Augenklappe">
+    <h1> <br/> <br/> fixieren Sie das Tablet <br/> auf einer Auflagefläche! </h1>
+  </div>
+
 </ion-content>
+
+<ion-footer>
+  <button ion-button large float-right (click)="goAnleitung2()">Weiter</button>
+</ion-footer>
