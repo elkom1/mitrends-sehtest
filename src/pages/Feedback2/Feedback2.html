@@ -1,0 +1,45 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Rückmeldung zum Sehtest 2</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <h1>
+        Frage 3: Die Handhabung der App war...
+        <ion-list radio-group [(ngModel)]="frage3">
+            <ion-item>
+                <ion-label>einfach</ion-label>
+                <ion-radio value="einfach" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>schwierig</ion-label>
+                <ion-radio value="schwierig"></ion-radio>
+            </ion-item>
+        </ion-list>
+        Frage 4: Ich habe den Test respektive die Fragen immer verstanden
+        <ion-list radio-group [(ngModel)]="frage4">
+            <ion-item>
+                <ion-label>trifft völlig zu</ion-label>
+                <ion-radio value="trifftzu" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>trifft nicht zu</ion-label>
+                <ion-radio value="trifftnichtzu"></ion-radio>
+            </ion-item>
+            <ion-item>
+                    <ion-label>trifft teilweise zu</ion-label>
+                    <ion-radio value="trifftteilweisezu"></ion-radio>
+                </ion-item>
+        </ion-list>
+    </h1>
+
+    <div text-center align-items-center>
+        <button ion-button large class="btn-wrapper" (click)="goSehTestHome()">Absenden</button>
+    </div>
+
+</ion-content>

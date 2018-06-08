@@ -1,0 +1,49 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Fragebogen Seite 3 von 3</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h1>
+        Frage 3b: Weshalb wurden Ihre Augen operiert?
+        <ion-list radio-group [(ngModel)]="frage3b">
+            <ion-item>
+                <ion-label>Grauer Star</ion-label>
+                <ion-radio value="graustar" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Sehschärfe verbessern</ion-label>
+                <ion-radio value="sehschärfe"></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Andere</ion-label>
+                <ion-radio value="andere"></ion-radio>
+            </ion-item>
+        </ion-list>
+        Frage 4: Leiden sie an einer chronischen Erkrankung an einem oder beiden Augen?
+        <ion-list radio-group [(ngModel)]="frage4">
+            <ion-item>
+                <ion-label>Ja</ion-label>
+                <ion-radio value="ja" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Nein</ion-label>
+                <ion-radio value="nein"></ion-radio>
+            </ion-item>
+        </ion-list>
+    </h1>
+    <h2>
+        Vielen Dank!
+        <br/> Bitte kontrollieren Sie nochmals Ihre Angaben und
+        <br/> senden Sie den Fragebogen ab.
+    </h2>
+
+    <div text-center align-items-center>
+        <button ion-button large class="btn-wrapper" (click)="goSehTestHome()">Absenden</button>
+    </div>
+
+</ion-content>

@@ -1,0 +1,35 @@
+page-Fragebogen3{
+
+    h1 { 
+        font-size: 28px; 
+    }
+
+    h2 { 
+        font-size: 28px; 
+        font: bold; 
+        text-align: center; 
+    }
+
+    .btn-wrapper {
+        text-align: center;
+        width: 50%;
+        height: 20%;
+        padding: 25px;
+        font-size: 26px;
+        color: white;
+        background-color: blue;
+        border-radius: 3px;
+        border: none;
+        margin: 10px;   
+        font-weight: bold; 
+    }
+
+    ion-content {
+        margin-top: 20px; 
+    }
+    
+    ion-label {
+        font-size: 26px;
+    }
+
+}

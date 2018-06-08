@@ -3,7 +3,7 @@ page-home {
         text-align: center;
         width: 75%;
         padding: 25px;
-        font-size: 14px;
+        font-size: 24px;
         color: white;
         background-color: blue;
         border-radius: 3px;
@@ -11,5 +11,15 @@ page-home {
         margin: 10px;
         font-weight: bold; 
     }
+    ion-content {
+        margin-top: 25px; 
+    }
+    ion-title {
+        position: absolute;
+        top: 1px; 
+        padding: 0 5px 1px;
+        width: 60%;
+        height: 100%;
+      }
     
 }

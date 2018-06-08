@@ -41,6 +41,12 @@ import { kontrasttest4_25_Page } from '../pages/kontrasttest4_25/kontrasttest4_2
 import { kontrasttest5_25_Page } from '../pages/kontrasttest5_25/kontrasttest5_25';
 import { kontrasttest6_25_Page } from '../pages/kontrasttest6_25/kontrasttest6_25';
 import { SehtestSchlussViewPage } from '../pages/sehtestSchlussView/sehtestSchlussView';
+import { EinfuehrungsPage } from '../pages/Einfuehrung/Einfuehrung';
+import { Fragebogen1Page } from '../pages/Fragebogen1/Fragebogen1';
+import { Fragebogen2Page } from '../pages/Fragebogen2/Fragebogen2';
+import { Fragebogen3Page } from '../pages/Fragebogen3/Fragebogen3';
+import { Feedback1Page } from '../pages/Feedback1/Feedback1';
+import { Feedback2Page } from '../pages/Feedback2/Feedback2';
 
 
 // Additional service for midata
@@ -85,7 +91,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     kontrasttest4_25_Page,
     kontrasttest5_25_Page,
     kontrasttest6_25_Page, 
-    SehtestSchlussViewPage
+    SehtestSchlussViewPage, 
+    EinfuehrungsPage, 
+    Fragebogen1Page, 
+    Fragebogen2Page, 
+    Fragebogen3Page, 
+    Feedback1Page, 
+    Feedback2Page
   ],
   imports: [
     BrowserModule,
@@ -126,7 +138,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     kontrasttest4_25_Page,
     kontrasttest5_25_Page,
     kontrasttest6_25_Page, 
-    SehtestSchlussViewPage
+    SehtestSchlussViewPage, 
+    EinfuehrungsPage, 
+    Fragebogen1Page, 
+    Fragebogen2Page,
+    Fragebogen3Page,  
+    Feedback1Page, 
+    Feedback2Page
   ],
   providers: [
     StatusBar,

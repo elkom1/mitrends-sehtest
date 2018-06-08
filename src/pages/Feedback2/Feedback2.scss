@@ -1,0 +1,35 @@
+page-Feedback2{
+
+    h1 { 
+        font-size: 30px; 
+    }
+
+    h2 { 
+        font-size: 30px; 
+        font: bold; 
+        text-align: center; 
+    }
+
+    .btn-wrapper {
+        text-align: center;
+        width: 50%;
+        height: 20%;
+        padding: 25px;
+        font-size: 30px;
+        color: white;
+        background-color: blue;
+        border-radius: 3px;
+        border: none;
+        margin: 10px;
+        font-weight: bold; 
+    }
+
+    ion-content {
+        margin-top: 30px; 
+    }
+    
+    ion-label {
+        font-size: 28px;
+    }
+
+}

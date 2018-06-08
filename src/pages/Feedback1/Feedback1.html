@@ -1,0 +1,53 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Rückmeldung zum Sehtest 1</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <h1>
+        Damit wir unsere Studien und Studienapplikationen stetig verbessern können, sind wir auf Ihr Feedback angewiesen. Deshalb
+        bitten wir Sie untenstehende Fragen zu beantworten:
+        <br/> 
+        <br/>
+        Frage 1: Ich empfand die Länge des Tests als...
+        <ion-list radio-group [(ngModel)]="frage1">
+            <ion-item>
+                <ion-label>optimal</ion-label>
+                <ion-radio value="optimal" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>zu lang</ion-label>
+                <ion-radio value="lang"></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>zu kurz</ion-label>
+                <ion-radio value="kurz"></ion-radio>
+            </ion-item>
+        </ion-list>
+        Frage 2: Ich empfand die regelmässigen Testdurchführungen als...
+        <ion-list radio-group [(ngModel)]="frage2">
+            <ion-item>
+                <ion-label>angenehm</ion-label>
+                <ion-radio value="angenehm" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>aufwändig</ion-label>
+                <ion-radio value="aufwändig"></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>nervig</ion-label>
+                <ion-radio value="nervig"></ion-radio>
+            </ion-item>
+        </ion-list>
+    </h1>
+
+</ion-content>
+
+<ion-footer>
+    <button ion-button large float-right class="btn" (click)="goFeedback2()">Nächste</button>
+</ion-footer>

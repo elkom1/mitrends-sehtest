@@ -13,8 +13,21 @@
 </ion-content>
 
 <ion-footer>
-    <button ion-button float-right (click)="goSnellen4(false)">Oben</button> 
-    <button ion-button float-right (click)="goSnellen4(false)">Rechts</button>
-    <button ion-button float-left (click)="goSnellen4(true)">Unten</button>
-    <button ion-button float-left (click)="goSnellen4(false)">Links</button>
+  <div style="width: 20%; float:right;">
+      <button ion-button large class="btn" (click)="goSnellen4(false)" style="width: 100%">
+          <ion-icon name="md-arrow-round-up"></ion-icon>
+      </button>
+      <button ion-button large class="btn" (click)="goSnellen4(false)" style="width: 100%">
+          <ion-icon name="md-arrow-round-forward"></ion-icon>
+      </button>
+  </div>
+
+  <div style="width: 20%">
+      <button ion-button large class="btn" (click)="goSnellen4(true)" style="width: 100%">
+          <ion-icon name="md-arrow-round-down"></ion-icon>
+      </button>
+      <button ion-button large class="btn" (click)="goSnellen4(false)" style="width: 100%">
+          <ion-icon name="md-arrow-round-back"></ion-icon>
+      </button>
+  </div>
 </ion-footer>

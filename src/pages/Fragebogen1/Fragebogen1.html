@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>Fragebogen Seite 1 von 3</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+    <h1> Dieser Fragebogen dient zur Erfassung von abweichenden Werten.
+        <br/> Für die statistische Testauswertung müssen Werte, welche die Ergebnisse beeinträchtigen können, separatisiert werden.
+        So muss eine Augenschwäche nicht direkt mit MS zusammenhängen. Faktoren wie eine Rot-Grün Schwäche oder eine Hornhautverkrümmung
+        könnten weitere Ursachen sein.
+        <br/>
+        <br/> 
+        Frage 1a: Haben sie auf dem rechten Auge eines oder mehrere der folgenden Symptome:
+        <ion-list radio-group [(ngModel)]="frage1a">
+            <ion-item>
+                <ion-label>Trübsehen</ion-label>
+                <ion-radio value="trübsehen" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Schmerzen bei Augenbewegung</ion-label>
+                <ion-radio value="schmerzen"></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Andere</ion-label>
+                <ion-radio value="andere"></ion-radio>
+            </ion-item>
+        </ion-list>
+        Frage 1b: Haben sie auf dem linken Auge eines oder mehrere der folgenden Symptome:
+        <ion-list radio-group [(ngModel)]="frage1b">
+            <ion-item>
+                <ion-label>Trübsehen</ion-label>
+                <ion-radio value="trübsehen" checked></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Schmerzen bei Augenbewegung</ion-label>
+                <ion-radio value="schmerzen"></ion-radio>
+            </ion-item>
+            <ion-item>
+                <ion-label>Andere</ion-label>
+                <ion-radio value="andere"></ion-radio>
+            </ion-item>
+        </ion-list>
+
+    </h1>
+
+</ion-content>
+
+<ion-footer>
+    <button ion-button large float-right class="btn" (click)="goFragebogen2()">Nächste</button>
+</ion-footer>

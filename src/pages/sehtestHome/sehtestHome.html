@@ -1,21 +1,24 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Sehtest Home</ion-title>
-  </ion-navbar>
+    <div class="layout">
+        <ion-navbar>
+            <button ion-button menuToggle>
+                <ion-icon name="menu"></ion-icon>
+            </button>
+            <button ion-button color="light" float-right (click)="goLogin()">Logout</button>
+            <ion-title>Sehtest Home</ion-title>
+        </ion-navbar>
+    </div>
 </ion-header>
 
 <ion-content padding>
- 
-  <img class="img-centered" src="assets/images/mitrends_home/sehtestLogo.png" alt="sehtest logo">
 
-  <div text-center align-items-center>
-    <button ion-button large class="btn-wrapper">Einführung</button>
-    <button ion-button large class="btn-wrapper">Fragebogen</button>
-    <button ion-button large class="btn-wrapper" (click)="goSehtestAnleitung1()">Sehtest durchführen</button>
-    <button ion-button large class="btn-wrapper">Feedback</button>
-  </div>
+    <img class="img-centered" src="assets/images/mitrends_home/sehtestLogo.png" alt="sehtest logo">
+
+    <div text-center align-items-center>
+        <button ion-button large class="btn-wrapper" (click)="goEinfuehrung()">Einführung</button>
+        <button ion-button large class="btn-wrapper" (click)="goFragebogen1()">Fragebogen</button>
+        <button ion-button large class="btn-wrapper" (click)="goSehtestAnleitung1()">Sehtest durchführen</button>
+        <button ion-button large class="btn-wrapper" (click)="goFeedback()">Feedback</button>
+    </div>
 
 </ion-content>

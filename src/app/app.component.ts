@@ -36,6 +36,12 @@ import { kontrasttest4_25_Page } from '../pages/kontrasttest4_25/kontrasttest4_2
 import { kontrasttest5_25_Page } from '../pages/kontrasttest5_25/kontrasttest5_25';
 import { kontrasttest6_25_Page } from '../pages/kontrasttest6_25/kontrasttest6_25';
 import { SehtestSchlussViewPage } from '../pages/sehtestSchlussView/sehtestSchlussView';
+import { EinfuehrungsPage } from '../pages/Einfuehrung/Einfuehrung';
+import { Fragebogen1Page } from '../pages/Fragebogen1/Fragebogen1';
+import { Fragebogen2Page } from '../pages/Fragebogen2/Fragebogen2';
+import { Fragebogen3Page } from '../pages/Fragebogen3/Fragebogen3';
+import { Feedback1Page } from '../pages/Feedback1/Feedback1';
+import { Feedback2Page } from '../pages/Feedback2/Feedback2';
 
 
 // Additional Service for midata
@@ -49,7 +55,7 @@ import { MidataService } from "../services/midataService";
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = LoginPage;
+  rootPage: any = HomePage;
 
   pages: Array<{title: string, component: any}>;
 

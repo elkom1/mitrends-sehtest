@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { SehtestAnleitung2Page } from '../sehtestAnleitung2/sehtestAnleitung2';
+import { SehtestHomePage } from '../sehtestHome/sehtestHome';
+import { LoginPage } from '../login/login';
 
 @Component({
   selector: 'page-sehtestAnleitung1',
@@ -13,5 +15,8 @@ export class SehtestAnleitung1Page {
   }
   goAnleitung2(){
     this.navCtrl.push(SehtestAnleitung2Page);
+  }
+  goLogin() {
+    this.navCtrl.push(LoginPage);
   }
 }

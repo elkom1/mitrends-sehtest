@@ -1,5 +1,22 @@
 page-sehtestAnleitung3{
     h1 { 
         text-align: center; 
+        font-size: 36px; 
     }
+    img.img-anleitung {
+        margin: auto; 
+        align-items: center;
+        display: block;
+        width: 35% !important;
+    }
+    ion-content {
+        margin-top: 15px; 
+    }
+    .btn {
+        display:block;
+        height: 90px;
+        width: 200px;
+        border: 5px ;
+        font-size: 30px;
+      }
 }

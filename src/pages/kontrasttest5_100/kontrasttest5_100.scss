@@ -1,5 +1,16 @@
 page-kontrasttest5_100{
     h1 { 
         text-align: center; 
+        font-size: 36px; 
     }
+    ion-content {
+        margin-top: 40px; 
+    }
+    .btn {
+        display:block;
+        height: 90px;
+        width: 200px;
+        border: 5px ;
+        font-size: 30px;
+      }
 }
